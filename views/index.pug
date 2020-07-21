@@ -1,0 +1,56 @@
+//- index.pug
+doctype html
+html
+  head
+    style
+      include ../static/style.css
+  body
+    nav#navabar.top
+      ul
+        div#logo
+            img(src="/static/img/logo2.png")
+            |HDA
+        li #[a(href="/") Home]
+        li #[a(href="/") About]
+        li #[a(href="/") About Us]
+        li #[a(href="/") Servicis]
+        li #[a(href="/") Join]
+    section#introSection
+        div Welcome to the Dance Academy
+        div.small At Dreams Dance, no dream is too big....and every student matters.
+    section#cardSection
+        h2 Card section
+        div.card
+            p This is a card-1
+            div.card-box
+                div.card-img
+                    img(src="/static/img/img1.png")
+                div.card-content
+                    p This Danse Academy 
+        div.card
+            p This is a card-2
+            div.card-box
+                div.card-img
+                    img(src="/static/img/img2.png")
+                div.card-content
+                    p This Danse Academy
+        div.card
+            p This is a card-3
+            div.card-box
+                div.card-img
+                    img(src="/static/img/img3.png")
+                div.card-content
+                    p This Danse Academy
+    section#SponserSection
+        h2 Sponsers 
+          div#Sponsers
+           img(src="/static/img/img2.png" alt="Sponsers-images" class="spimage")
+           img(src="/static/img/img2.png" alt="Sponsers-images" class="spimage")
+           img(src="/static/img/img2.png" alt="Sponsers-images" class="spimage")
+           img(src="/static/img/img2.png" alt="Sponsers-images" class="spimage")
+           
+           
+    section#footerSection
+        |Copyright @ 2020 DanceAcademy.com | All right resarve
+    script
+      include ../static/index.js
